@@ -2,8 +2,8 @@ cask "jv-studio" do
   arch arm: "arm", intel: "intel"
 
   version "0.1.0"
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
-         intel: "0000000000000000000000000000000000000000000000000000000000000001"
+  sha256 arm:   "ab9d33511001ed3136a1a9e24b45107c788f1ba1908e10b8aaf2248d57386e01",
+         intel: "7bdd6bffebd88cc5a39533a9db1eef02fe3d1d2c5dd93f0260a7f090f55bef7b"
 
   url "https://github.com/martincurkovic/jv-studio/releases/download/v#{version}/JV-Studio-macos-#{arch}.dmg"
   name "JV Studio"
