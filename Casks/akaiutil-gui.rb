@@ -1,9 +1,9 @@
 cask "akaiutil-gui" do
   arch arm: "arm", intel: "intel"
 
-  version "0.2.0"
-  sha256 arm:   "dc300cebbea5c2a351d7eeeb888fca500a104aa7893039bd089381e794f2db88",
-         intel: "82e5ee59339a010e5f5defbecb7d37602bf717e79ca13fd6d592aefad1ec4834"
+  version "0.3.0"
+  sha256 arm:   "a0179d2fc70c12cc60abdfc8b2ae2e28f59839cb98f38815ca9344f06e50ffc3",
+         intel: "0e81b9855d6f4f8a1dd51fc27cb437ecbfacbc4aa1935b78b0659d60b2448adc"
 
   url "https://github.com/martincurkovic/akaiutil-gui/releases/download/v#{version}/akaiutil-GUI-macos-#{arch}.dmg"
   name "akaiutil-GUI"
