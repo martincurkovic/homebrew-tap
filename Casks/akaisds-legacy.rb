@@ -4,8 +4,8 @@ cask "akaisds-legacy" do
   # Placeholders until the first release with a legacy build (1.4.2): the AKAISDS repo's
   # publish workflow rewrites version and both sha256 lines on every release.
   version "1.4.2"
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
-         intel: "0000000000000000000000000000000000000000000000000000000000000001"
+  sha256 arm:   "b5b2a074e15367f2eb11be63728362625b2d66c0f65c88c80c8b3a930519ffeb",
+         intel: "c1b581eab5a742edd9a7651e44d3eb1cf0422189b614a9528148796c2cd22802"
 
   url "https://github.com/martincurkovic/AKAISDS/releases/download/v#{version}/AKAISDS-macos-#{arch}-legacy.dmg"
   name "AKAISDS (legacy)"

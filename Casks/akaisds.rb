@@ -1,9 +1,9 @@
 cask "akaisds" do
   arch arm: "arm", intel: "intel"
 
-  version "1.4.1"
-  sha256 arm:   "6efe059cd3b70db350fa50bfa2ae0a3a778fcf9d8dbcf7779bacbe8214683a1c",
-         intel: "0f542cfd15be3840ccf422a17eb683845d64f00d02099de9afc36997345c2faf"
+  version "1.4.2"
+  sha256 arm:   "41a375c174b97c7fb493e2ad14ea04243d2a8b0f6be9bce0ab06b3500396dcec",
+         intel: "e96572ba9b9f16033c4f49e791a33504a0e2d9c79264ceaec3f6dea19e3e65f7"
 
   url "https://github.com/martincurkovic/AKAISDS/releases/download/v#{version}/AKAISDS-macos-#{arch}.dmg"
   name "AKAISDS"
